@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
     "prepare": "husky",
     "lint": "eslint .",
-    "test": "vitest --passWithNoTests",
+    "test": "vitest run && playwright test",
     "test:unit": "vitest",
-    "test:e2e": "npx playwright test",
+    "test:e2e": "playwright test",
     "start": "live-server --port=5500"
   },
   "keywords": [],

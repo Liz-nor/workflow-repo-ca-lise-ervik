@@ -78,11 +78,11 @@ TEST_USER_PASSWORD=
 ```
 tests
 ├─ unit
-│ ├─ activePathFunction.test.js
-│ └─ userNameFunction.test.js
+│ ├─ isActivePath.test.js
+│ └─ getUserName.test.js
 └─ e2e
-├─ loginFormListener.spec.js
-└─ navigationFunction.spec.js
+├─ login.spec.js
+└─ navigation.spec.js
 ```
 
 ## Technologies

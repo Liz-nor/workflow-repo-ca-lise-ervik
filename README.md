@@ -52,8 +52,10 @@ The goal is to ensure consistent code quality and reliability through automated 
 
 Create a `.env ` file in the root directory:
 
-`API_KEY=
-BASE_URL=http://localhost:5500`
+```env
+TEST_USER_EMAIL=
+TEST_USER_PASSWORD=
+```
 
 ## Available Scripts
 

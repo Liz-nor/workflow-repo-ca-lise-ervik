@@ -1,55 +1,92 @@
-# My JavaScript2 assignment
+# My Workflow project
+
+![Node](https://img.shields.io/badge/node-20+-green)
+![Tests](https://img.shields.io/badge/tests-vitest%20%7C%20playwright-blue)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
 
-### This assignment focuses on building a social media app where you can read other peoples posts, follow their profiles, create your own post as well as edit or delete them. Be sure to include a fun bio to make you stand out in the crowd. image Please follow this link to the project:
+This project demonstrates a modern JavaScript development workflow including linting, formatting, automated testing, and Git commit hooks.
 
-## Description
+The goal is to ensure consistent code quality and reliability through automated tools and tests.
 
-- This project is implemented as a multi-page application (MPA) using multiple HTML entry pages (e.g., login.html, profile.html).
-- The codebase is organized with an SPA-style folder structure (pages/, components/, services/, routes/) to keep logic modular and reusable.
-
----
-
-## Features:
-
-- Registering a new user
-- Login in to your account
-- Getting all posts made by you and other users
-- Getting a single post
-- Creating your own post
-- Editing your own posts
-- Deleting your own posts
-- Seeing other peoples posts collectively
-- Being able to follow and unfollow users
-- Search for usernames or words in bio
-- Viewing your profile
-
-## This project is built using:
-
-![Static Badge](https://img.shields.io/badge/HTML-orange)
-![Static Badge](https://img.shields.io/badge/CSS-purple)
-![Static Badge](https://img.shields.io/badge/JavaScript-yellow)
+# Features
 
 ---
 
-# 📦 Installation Follow these steps to get a copy of the project running locally:
+- ESLint for code quality and linting
+- Prettier for consistent code formatting
+- Husky and lint-staged for pre-commit hooks
+- Unit testing with Vitest
+- End-to-end testing with Playwright
+- Enviroment variable support for secure configuration
 
-    1. Clone the repository:
-    ```bash
-     git clone https://github.com/Liz-nor/JavaScript2.git
-     ```
-     2. Open the repository:
-     ```bash
-      cd JavaScript2
-      ```
-      3. Run Live Server or write npm run dev in the terminal
+## Prerequisites
 
 ---
 
-## Licence MIT License
+- Node.js(20+)
+- npm
+
+# 📦 Getting started:
 
 ---
+
+1. Installation:
+
+`bash npm install`
+
+`bash npx playwright install`
+
+2. Running the project:
+
+`bash npm run dev`
+
+3. Running the tests.
+
+`bash npm run test`
+
+## Environment Variables
+
+---
+
+Create a `bash .env ` file in the root directory:
+
+`bash API_KEY= <br> BASE_URL=http://localhost:5500`
+
+## Available Scripts
+
+---
+
+``bash npm run dev` -Start development server
+
+`bash npm run build` -Build for production
+
+`bash npm run test` -Run tests
+
+`bash npm run lint` -Run ESlint
+
+`bash npm run test:e2e` -Run Playwright end-to-end tests
+
+## Project Structure
+
+---
+
+tests
+├─ unit
+│ ├─ activePathFunction.test.js
+│ └─ userNameFunction.test.js
+└─ e2e
+├─ loginFormListener.spec.js
+└─ navigationFunction.spec.js
+
+## Technologies
+
+- ![Static Badge](https://img.shields.io/badge/JavaScript-yellow)
+- ![Static Badge](https://img.shields.io/badge/HTML-blue)
+- ![Static Badge](https://img.shields.io/badge/CSS-green)
+- ![Static Badge](https://img.shields.io/badge/ESlint-purple)
+- ![Static Badge](https://img.shields.io/badge/Prettier-purple)
 
 ## Contact
 
@@ -59,3 +96,7 @@ Lise Ervik
 - [Portfolio] (https://liz-nor.github.io/Portfolio1/)
 
 ## Acknowledgement I want to thank my teachers and especially my peers for support and advice
+
+```
+
+```

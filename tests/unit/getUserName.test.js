@@ -10,6 +10,7 @@ describe("getUsername", () => {
   it("should return the username from localStorage", () => {
     const user = { name: "Kari" };
     localStorage.setItem("user", JSON.stringify(user));
+
     expect(getUsername()).toBe("Kari");
   });
 

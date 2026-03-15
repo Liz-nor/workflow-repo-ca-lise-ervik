@@ -28,50 +28,52 @@ The goal is to ensure consistent code quality and reliability through automated 
 - Node.js(20+)
 - npm
 
-# 📦 Getting started:
+# Getting started:
 
 ---
 
 1. Installation:
 
-`bash npm install`
+`npm install`
 
-`bash npx playwright install`
+`npx playwright install`
 
 2. Running the project:
 
-`bash npm run dev`
+`npm run dev`
 
 3. Running the tests.
 
-`bash npm run test`
+`npm run test`
 
 ## Environment Variables
 
 ---
 
-Create a `bash .env ` file in the root directory:
+Create a `.env ` file in the root directory:
 
-`bash API_KEY= <br> BASE_URL=http://localhost:5500`
+`API_KEY=
+BASE_URL=http://localhost:5500`
 
 ## Available Scripts
 
 ---
 
-``bash npm run dev` -Start development server
+`npm run dev` -Start development server
 
-`bash npm run build` -Build for production
+`npm run build` -Build for production
 
-`bash npm run test` -Run tests
+`npm run test` -Run tests
 
-`bash npm run lint` -Run ESlint
+`npm run lint` -Run ESlint
 
-`bash npm run test:e2e` -Run Playwright end-to-end tests
+`npm run test:e2e` -Run Playwright end-to-end tests
 
 ## Project Structure
 
 ---
 
+```
 tests
 ├─ unit
 │ ├─ activePathFunction.test.js
@@ -79,6 +81,7 @@ tests
 └─ e2e
 ├─ loginFormListener.spec.js
 └─ navigationFunction.spec.js
+```
 
 ## Technologies
 
@@ -95,8 +98,4 @@ Lise Ervik
 - [LinkedIn] (https://www.linkedin.com/in/lise-ervik-9b688b237/)
 - [Portfolio] (https://liz-nor.github.io/Portfolio1/)
 
-## Acknowledgement I want to thank my teachers and especially my peers for support and advice
-
-```
-
-```
+Acknowledgement I want to thank my teachers and especially my peers for support and advice
